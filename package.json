@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "sass styles/sass/base.scss styles/base.css -w && sass styles/sass/index.scss styles/index.css -w"
+    "compile:sass": "sass --watch styles/sass/base.scss:styles/css/base.css styles/sass/index.scss:styles/css/index.css"
   },
   "keywords": [],
   "author": "",
