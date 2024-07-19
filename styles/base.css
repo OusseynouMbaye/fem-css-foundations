@@ -1,7 +1,6 @@
 :root {
   --color-primary: #ff7b54;
   --color-text-on-primary: #ffff;
-
   --font-family: "Inter", sans-serif;
 }
 
@@ -25,23 +24,21 @@ a {
   align-items: center;
   padding: 0 60px;
 }
-
-.header__link {
+.header .header__link {
   font-size: 40px;
   font-weight: bold;
 }
-
-.nav {
+.header .nav {
   display: inline-block;
   justify-self: end;
 }
-
-.nav__list {
+.header .nav__list {
   list-style: none;
   display: flex;
 }
-
-.nav__list-item {
+.header .nav__list-item {
   margin-inline-end: 36px;
   font-size: 20px;
 }
+
+/*# sourceMappingURL=base.css.map */

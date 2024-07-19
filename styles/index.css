@@ -1,5 +1,6 @@
 @import "./base.css";
-
 p ~ span {
   color: red;
 }
+
+/*# sourceMappingURL=index.css.map */
