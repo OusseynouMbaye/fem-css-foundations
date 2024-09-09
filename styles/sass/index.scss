@@ -3,3 +3,39 @@
 p ~ span {
   color: red;
 }
+
+.home {
+  .main__heading {
+    font-size: 128px;
+    font-weight: bold;
+  }
+
+  .main__sub-heading {
+    font-size: 40px;
+  }
+
+  .menu-icon,
+  .close-icon {
+    path {
+      fill: var(--color-text-on-primary);
+    }
+  }
+}
+
+@media (max-width: 1220px) {
+  .home {
+    .main__heading {
+      font-size: 70px;
+    }
+  }
+}
+@media (max-width: 590px) {
+  .home {
+    .main__heading {
+      font-size: 40px;
+    }
+    .main__sub-heading {
+      font-size: 24px;
+    }
+  }
+}

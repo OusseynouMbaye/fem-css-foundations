@@ -3,4 +3,30 @@ p ~ span {
   color: red;
 }
 
+.home .main__heading {
+  font-size: 128px;
+  font-weight: bold;
+}
+.home .main__sub-heading {
+  font-size: 40px;
+}
+.home .menu-icon path,
+.home .close-icon path {
+  fill: var(--color-text-on-primary);
+}
+
+@media (max-width: 1220px) {
+  .home .main__heading {
+    font-size: 70px;
+  }
+}
+@media (max-width: 590px) {
+  .home .main__heading {
+    font-size: 40px;
+  }
+  .home .main__sub-heading {
+    font-size: 24px;
+  }
+}
+
 /*# sourceMappingURL=index.css.map */
